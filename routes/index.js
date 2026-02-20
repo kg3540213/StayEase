@@ -16,4 +16,9 @@ router.get('/terms', (req, res) => {
     res.render('pages/terms');
 });
 
+// About Page
+router.get('/about', (req, res) => {
+    res.render('pages/about');
+});
+
 module.exports = router;

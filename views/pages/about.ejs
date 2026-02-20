@@ -1,0 +1,39 @@
+<% layout('/layouts/boilerplate.ejs') %>
+
+<style>
+    .about-avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #eee;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+</style>
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+            <div class="text-center mb-5">
+                <h1 class="fw-bold">About the Developer</h1>
+                <hr class="w-25 mx-auto text-primary" style="opacity: 1; height: 3px;">
+            </div>
+            <div class="d-flex flex-column flex-md-row align-items-center gap-4 mb-4">
+                <img src="/assets/card-1.avif" alt="Developer Photo" class="about-avatar mb-3 mb-md-0">
+                <div class="text-md-start text-center">
+                    <h2 class="fw-semibold mb-1">Koushik Ghosh</h2>
+                    <p class="mb-1">Full Stack Developer & Student</p>
+                    <p class="mb-1">Passionate about building web applications and learning new technologies. Creator of StayEase.</p>
+                    <p class="mb-1">Contact: <a href="mailto:koushikghosh.dev@gmail.com">koushikghosh.dev@gmail.com</a></p>
+                    <p class="mb-0">GitHub: <a href="https://github.com/kg3540213" target="_blank">kg3540213</a></p>
+                </div>
+            </div>
+            <div class="mt-4">
+                <h3 class="fw-bold">About StayEase</h3>
+                <p class="text-secondary mb-0" style="font-size: 1.1rem;">
+                    StayEase is a modern accommodation booking platform built as a portfolio project. It demonstrates skills in Node.js, Express, MongoDB, and EJS templating, with a focus on clean UI and user experience.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
